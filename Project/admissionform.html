@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" type="text/css" href="admissionform.css">
+    <link rel="icon" href="logo.jpeg" sizes="32x32" >
+
+</head>
+<body>
+    <div class="admission">
+        <div class="headerpart"></div>
+    <nav class="top-nav">
+        <div class="navigation-btn">
+            <center>
+          <ul class="nav-box">
+
+              <li><a href="./page.html">Home </a></li>
+              <li><a href="./aboutus.html">About Us </a></li>
+            <li><a href="./courses.html">Courses Offered</a></li>
+             
+             <li><a href="./contactus.html">Contact Us</a></li>
+             </ul>
+        </center>
+        </div>
+      </nav>
+    </div>
+      <div class="regform"><h1>Admission Form</h1></div>
+         <div class="main">
+          <form action="">
+              <div id="name">
+                  <h2 class="name">Name</h2>
+                  <input class="firstname" type="text" name="first_name"><br>
+                  <label for="" class="firstlabel">first name</label>
+                  <input class="lastname" type="text" name="last_name"><br>
+                  <label  class="lastlabel">last name</label>
+              </div>
+              <h2 class="name">Address</h2>
+              <input type="text" name="address" class="address">
+
+              <h2 class="name">Email</h2>
+              <input type="text" name="email" class="email">
+
+              <h2 class="name">Phone Number</h2>
+              <input type="text" name="phone" class="number" maxlength="10">
+              
+              
+              <h2 class="name">Course to apply</h2>
+              <select name="course" class="option">
+                  <option disabled="disabled" selected="selected">--Choose Option--</option>
+                  <option value="Mechanical Engineering">Mechanical Engineering</option>
+                  <option value="Electrical Engineering">Electrical Engineering</option>
+                  <option value="Electronics Engineering">Electronics Engineering</option>
+                  <option value="Software Engineering">Software Engineering</option>
+                  <option value="Civil Engineering">Civil Engineering</option>
+                  <option value="MBA">MBA</option>
+              </select>
+              <h2 id="gender">Gender</h2>
+              <label class="radio">
+                <input type="radio" class="radio-one"id="Male" name="gender" value="Male">
+                <label class=" radio"for="Male">Male</label>
+                <input type="radio" class="radio-two" id="Female" name="gender" value="Female">
+                <label class="radio" for="Female">Female</label>
+  
+                 
+              </label>
+              
+             
+             
+            <button type="submit" >Submit</button>
+             
+          </form>
+      </div>
+    
+
+
+    
+    
+</body>
+</html>

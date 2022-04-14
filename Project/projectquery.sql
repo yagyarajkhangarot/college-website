@@ -1,0 +1,12 @@
+--create table Student_details(sid int primary key, sname varchar(50) not null, sphone varchar(10) unique not null,address varchar(50) not null);
+--create table Course_details(cid int primary key, cname varchar(50) not null unique, cduration int not null, cprice float not null);
+--create table Student_Course(sid int, cid int, constraint cc_pk primary key(sid,cid), constraint cc_fk1 foreign key(sid) references Student(sid), constraint cc_fk2 foreign key(cid) references Course(cid));
+--insert into Student_details values(1,'Utkarsh','9872635465','New Delhi'),(2,'Vinayak','7486453527','Noida'),(3,'Tabish','7065713811','New Delhi'),(4,'Vivek','9987465367','Uttrakhand'),(5,'Yagya Raj','9967585743','Gurugram');
+--insert into Course_details values(1,'Mechanical Engineering',4,45000),(2,'Software Engineering',4,45000),(3,'Electrical Engineering',4,45000),(4,'Electronics Engineering',4,45000),(5,'Civil Engineering',4,45000),(6,'MBA',2,100000);
+--insert into Student_Course values(1,1),(2,3),(3,2),(4,1),(5,3);
+select * from Course_details;
+select * from Student_details;
+select * from Student_Course;
+--drop table Student_details;
+--drop table Course_details;
+--drop table Student_Course;
